@@ -816,7 +816,7 @@ function draw() {
   spawnBullets();
   touchBullets();
   feedback();
-   debugsprite(); 
+  // debugsprite(); 
  
 
 if(mouse.isTouching(capsule3)){
