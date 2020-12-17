@@ -790,6 +790,8 @@ cheese198.scale=0.2
 
 
 function draw() {
+	
+	camera.position.x=mouse.x
 
   rectMode(CENTER);
   Engine.update(engine)
